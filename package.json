@@ -1,34 +1,35 @@
 {
-    "name": "webstarter",
-    "version": "0.0.0",
-    "description": "web-starter-template generator tool",
-    "bin": "bin/cmd.js",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/devWayne/webstarter.git"
-    },
-    "keywords": [
-        "cli",
-        "generator",
-        "webstarter"
-    ],
-    "author": "Vi",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/devWayne/webstarter/issues"
-    },
-    "homepage": "https://github.com/devWayne/webstarter",
-    "dependencies": {
-        "commander": "~2.6.0",
-        "clilog": "~1.0.0"
-    },
-    "devDependencies": {
-        "mocha": "*",
-        "should": "^3.3.2",
-        "supertest": "*"
-    }
+  "name": "webstarter",
+  "version": "0.0.0",
+  "description": "web-starter-template generator tool",
+  "bin": "bin/cmd.js",
+  "main": "bin/cmd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devWayne/webstarter.git"
+  },
+  "keywords": [
+    "cli",
+    "generator",
+    "webstarter"
+  ],
+  "author": "Vi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devWayne/webstarter/issues"
+  },
+  "homepage": "https://github.com/devWayne/webstarter",
+  "dependencies": {
+    "commander": "~2.6.0",
+    "clilog": "~1.0.0",
+    "readline": "0.0.5"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^3.3.2",
+    "supertest": "*"
+  }
 }
