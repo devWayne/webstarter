@@ -1,6 +1,6 @@
 {
   "name": "webstarter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "web-starter-template generator tool",
   "bin": "bin/cmd.js",
   "main": "bin/cmd.js",
@@ -25,7 +25,8 @@
   "dependencies": {
     "commander": "~2.6.0",
     "clilog": "~1.0.0",
-    "readline": "0.0.5"
+    "readline": "0.0.5",
+    "mkdirp": "~0.5.0"
   },
   "devDependencies": {
     "mocha": "*",
