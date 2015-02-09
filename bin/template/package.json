@@ -17,5 +17,6 @@
   "private": true,
   "keywords": [],
   "author": "Vi",
-  "license": "MIT"
+  "license": "MIT",
+  "version":"1.0.0"
 }
