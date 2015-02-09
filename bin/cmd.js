@@ -106,6 +106,7 @@ function createApplicationAt(path) {
           write(path+'/src/assets/js/index.js',less);
       });
       mkdir(path + '/src/vendor');
+      write(path + '/index.html', html);
       write(path + '/config.json', config);
       write(path + '/gulpfile.js', gulpfile);
       write(path + '/package.json',pkg);

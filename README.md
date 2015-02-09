@@ -4,8 +4,8 @@ Web-starter-template Generator Tool
 
 ##Usage
 
-- npm install -g webstarter
-- webstarter /foo
-- cd /foo
+1. npm install -g webstarter
+2. mkdir /foo && cd /foo
+3. run:`webstarter`
 
 
