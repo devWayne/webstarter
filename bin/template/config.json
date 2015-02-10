@@ -8,10 +8,10 @@
     },
     "ftpconfigs": {
         "beta": {
-            "host": "192.168.222.163",
-            "port": "21",
-            "user": "testuser",
-            "pass": "12qwaszx",
+            "host": "",
+            "port": "",
+            "user": "",
+            "pass": "",
             "remotePath": "topic/movie/",
 	    "version":"none"
         },

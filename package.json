@@ -1,6 +1,6 @@
 {
   "name": "webstarter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "web-starter-template generator tool",
   "bin": "bin/cmd.js",
   "main": "bin/cmd.js",

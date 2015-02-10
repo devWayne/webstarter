@@ -21,7 +21,7 @@ var config=fs.readFileSync(__dirname + '/template/config.json', 'utf-8'),
     pkg=fs.readFileSync(__dirname + '/template/package.json', 'utf-8'),
     less=fs.readFileSync(__dirname + '/template/src/assets/css/page.less', 'utf-8'),
     js=fs.readFileSync(__dirname + '/template/src/assets/js/index.js', 'utf-8'),
-    html=fs.readFileSync(__dirname + '/template/src/index.html', 'utf-8');
+    html=fs.readFileSync(__dirname + '/template/index.html', 'utf-8');
 
 
 
@@ -103,7 +103,7 @@ function createApplicationAt(path) {
           write(path+'/src/assets/css/page.less',less);
       });
       mkdir(path + '/src/assets/js',function(){
-          write(path+'/src/assets/js/index.js',less);
+          write(path+'/src/assets/js/index.js',js);
       });
       mkdir(path + '/src/vendor');
       write(path + '/index.html', html);
